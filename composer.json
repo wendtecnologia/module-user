@@ -1,0 +1,16 @@
+{
+    "name": "wend/module-user",
+    "type": "laravel-modules",
+    "description": "Laravel library to work with modules",
+    "keywords": ["wend", "laravel", "modules"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Walker de Alencar"
+        }
+    ],
+    "require": {
+        "php": "^5.6|^7.0",
+        "oomphinc/composer-installers-extender": "^1.1"
+    },
+}
