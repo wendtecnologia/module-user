@@ -23,6 +23,10 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
+        },
+        "installer-types": ["laravel-modules"],
+        "installer-path": {
+            "app/Module/{$name}/": ["type:laravel-modules","wend/module-user"]
         }
     }
 }
