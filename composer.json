@@ -1,7 +1,7 @@
 {
     "name": "wend/module-user",
     "type": "laravel-modules",
-    "description": "Laravel library to work with modules",
+    "description": "User Module",
     "keywords": ["wend", "laravel", "modules"],
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
     "autoload-dev": {
         "psr-4": {
             "Module\\User\\": ".",
-            "Module\\": "app/Module/"
+            "Module\\": "app/Modules/"
         }
     },
     "extra": {
